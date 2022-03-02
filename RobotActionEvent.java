@@ -7,5 +7,7 @@ public class RobotActionEvent extends EventObject {
         super(source); 
     } 
 
+    private int doSmth(){return 4;} 
+
     public void newAction(){doSmth();}
 } 
